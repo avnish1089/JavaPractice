@@ -1,10 +1,15 @@
 import funtionalinterface.*;
 import multithreading.sharedResource;
 
-public class Main {
+public class Main2 {
     public static void main(String[] args) {
         // functionInterfaceLamda();
         // multiThreadProducerConsumer();
+        learnStreams();
+    }
+    public static void learnStreams(){
+         Streams ob = new Streams();
+        ob.calculateEven();
     }
   
   public static void  multiThreadProducerConsumer(){
